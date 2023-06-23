@@ -1,10 +1,12 @@
 import Title from './components/Title';
-import Setup from "./examples/2-headers";
+import Setup from "./examples/2-headers"; 
+import PostRequest from "./examples/3-post-request"; 
 function App() {
   return (
     <main>
-      <Title />
-      <Setup/>
+      {/* <Title /> */}
+      {/* <Setup/>   */}
+      <PostRequest/>
     </main>
   );
 }
